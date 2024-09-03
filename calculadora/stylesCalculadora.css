@@ -1,36 +1,53 @@
 
-
 *{
     padding: 0;
     margin: 0;
-    
-}
-
-body {
-    background: linear-gradient(135deg,#030000, #154a24);
-    height: 100vh;
     box-sizing: border-box;
 }
 
-.cuadro_calculadora{
-    background-color: aliceblue;
-    position: absolute;
-    left: 30em;
-    bottom: 0.1em;
-    width: 25%;
-    height: auto;
+
+body{
+    background-color: green;
+    height: 100vh;
+    font-size: 1rem;
+    color: aliceblue;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   }
+
+.textarea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
 }
-.botones{
-    background-color: white;
+
+.cuadroTexto{
+    border-radius: 4px;
+    background-color: black;
+   
+    font-style: normal;
+    padding: 1.5em;
+    color: green;
+    width: 31.8em;
+    height: 10em;
+    border: solid yellow 0.5em;
+    font-weight: 900;
 }
+
+.bloqueBotones{
+    display: flexbox;
+    justify-content: center;
+    padding-top: 3%;
+    
+}
+
 
 button{
-    font-size: 7em;
-    display: inline-block;
-    margin: 5%;
-    border: solid;
-    border-radius: 2%;
-    
-
-    
+    border: solid black 1px;
+    width: 70px;
+    height: 35px;
+    padding: 35px;
 }
