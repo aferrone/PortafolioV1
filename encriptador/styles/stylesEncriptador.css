@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -35,6 +36,10 @@ body{
     background-color: white;
     border: solid 5px black;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
 }
 
