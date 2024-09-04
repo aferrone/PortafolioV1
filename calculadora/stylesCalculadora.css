@@ -1,4 +1,5 @@
 
+
 *{
     padding: 0;
     margin: 0;
@@ -22,19 +23,21 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 3%;
+    
 }
 
 .cuadroTexto{
     border-radius: 4px;
     background-color: black;
-   
     font-style: normal;
     padding: 1.5em;
     color: green;
     width: 31.8em;
     height: 10em;
     border: solid yellow 0.5em;
-    font-weight: 900;
+    font-size: 15px ;
+    resize: none;
+    overflow: hidden;
 }
 
 .bloqueBotones{
